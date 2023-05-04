@@ -1,16 +1,15 @@
 body {
     background-color: #BBBBBB;
     font-family: "Montserrat";
-    display: grid;
   }
   
   .div1{
-    position: absolute;
+    display: flex;
   }
 
   .div2{
-    background-color: #F9F9F9;
-    position: absolute;
+    background-color: #F9F9F9; 
+    display: flex;
     top: 50%;
     left: 26%;
     padding: 0px;
@@ -53,6 +52,7 @@ body {
   img {
     height: 210px;
     padding: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   
